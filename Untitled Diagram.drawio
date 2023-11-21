@@ -1,35 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T02:34:04.805Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="ljyuFz9OduC2ZHkSJ_KL" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T02:42:40.994Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="qFGI2scmBVxT1R5XGacd" version="22.1.3" type="github">
   <diagram name="Page-1" id="N03-g4pvV7ls1qnGNdEI">
-    <mxGraphModel dx="1296" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1837" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nzaEZpmG-VRNUWLQHmew-116" value="" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=0;" vertex="1" parent="1">
+          <mxGeometry y="79.75" width="1100" height="770" as="geometry" />
+        </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-1" target="nzaEZpmG-VRNUWLQHmew-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-1" value="用户" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.users;" vertex="1" parent="1">
-          <mxGeometry x="98.75" y="89" width="50" height="60" as="geometry" />
+          <mxGeometry x="98.75" y="142" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-2" target="nzaEZpmG-VRNUWLQHmew-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-2" value="应用服务器" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" vertex="1" parent="1">
-          <mxGeometry x="590" y="384" width="50" height="50" as="geometry" />
+          <mxGeometry x="590" y="437" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-3" value="数据库" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="1">
-          <mxGeometry x="730" y="379" width="40" height="60" as="geometry" />
+          <mxGeometry x="730" y="432" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-4" target="nzaEZpmG-VRNUWLQHmew-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-4" value="防火墙" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" vertex="1" parent="1">
-          <mxGeometry x="280" y="159" width="50" height="50" as="geometry" />
+          <mxGeometry x="280" y="212" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-5" target="nzaEZpmG-VRNUWLQHmew-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-5" value="4A堡垒机" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" vertex="1" parent="1">
-          <mxGeometry x="890" y="89" width="30" height="60" as="geometry" />
+          <mxGeometry x="890" y="142" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-6" target="nzaEZpmG-VRNUWLQHmew-2">
           <mxGeometry relative="1" as="geometry" />
@@ -37,33 +40,33 @@
         <mxCell id="nzaEZpmG-VRNUWLQHmew-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-6" target="nzaEZpmG-VRNUWLQHmew-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="409" />
-              <mxPoint x="530" y="294" />
+              <mxPoint x="530" y="462" />
+              <mxPoint x="530" y="347" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-6" target="nzaEZpmG-VRNUWLQHmew-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="409" />
-              <mxPoint x="530" y="514" />
+              <mxPoint x="530" y="462" />
+              <mxPoint x="530" y="567" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-6" value="代理服务器" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.proxy_server;" vertex="1" parent="1">
-          <mxGeometry x="444" y="384" width="42" height="50" as="geometry" />
+          <mxGeometry x="444" y="437" width="42" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-8" target="nzaEZpmG-VRNUWLQHmew-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-8" value="应用服务器" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" vertex="1" parent="1">
-          <mxGeometry x="590" y="489" width="50" height="50" as="geometry" />
+          <mxGeometry x="590" y="542" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-9" target="nzaEZpmG-VRNUWLQHmew-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-9" value="应用服务器" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" vertex="1" parent="1">
-          <mxGeometry x="590" y="269" width="50" height="50" as="geometry" />
+          <mxGeometry x="590" y="322" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-25" value="浙江" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;shadow=0;rowLines=1;fixedRows=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;metaEdit=0;arcSize=15;" vertex="1" parent="1">
           <mxGeometry x="610" y="699.75" width="490" height="150" as="geometry" />
@@ -144,19 +147,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-92" value="核心交换机" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.hub;" vertex="1" parent="1">
-          <mxGeometry x="380" y="249" width="100" height="30" as="geometry" />
+          <mxGeometry x="380" y="302" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-95" target="nzaEZpmG-VRNUWLQHmew-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-95" value="防火墙" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" vertex="1" parent="1">
-          <mxGeometry x="590" y="159" width="50" height="50" as="geometry" />
+          <mxGeometry x="590" y="212" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nzaEZpmG-VRNUWLQHmew-100" target="nzaEZpmG-VRNUWLQHmew-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-100" value="接入交换机" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.hub;" vertex="1" parent="1">
-          <mxGeometry x="240" y="394" width="100" height="30" as="geometry" />
+          <mxGeometry x="240" y="447" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nzaEZpmG-VRNUWLQHmew-104" value="防火墙" style="fontColor=#0066CC;verticalAlign=middle;verticalLabelPosition=middle;labelPosition=right;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;noLabel=0;fontSize=12;spacingLeft=15;" vertex="1" parent="1">
           <mxGeometry x="20" y="748" width="30" height="30" as="geometry" />
